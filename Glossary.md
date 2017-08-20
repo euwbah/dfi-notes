@@ -1,9 +1,11 @@
 # This glossary only includes terms worth studying
 
 ## Forensics software file extensions
-**`.E01`** -- EnCase / AccessData Forensis Tool Kit (FTK)
-**`.AFF`** -- Forensic File Format
+**`.E01`** -- EnCase / AccessData Forensics Tool Kit (FTK) images
+**`.eve`** -- ProDiscover images
+**`.AFF`** -- Advanced Forensics Format
 **`.DD`**/**`.RAW`** -- Raw file formats
+**`.dft`** -- ProDiscover project file
 
 ## 1. Intro to digital forensics
 
@@ -17,7 +19,7 @@ Digital Evidence First Responder
 
 Digital Evidence Specialist
 
-Affadavit
+Affidavit
 
 Evidence exhibits
 
@@ -122,3 +124,63 @@ National Software Reference Library
 Computer Forensics Examination Protocol
 
 Digital Forensics Tool Upgrade Protocol
+
+## 4. Data acquisition
+
+Image file formats
+* Raw
+    - `.bin`
+    - `.raw`
+    - `.dd`
+    - `.001`
+    - `.img`
+* Proprietary
+    - `.E01` (EnCase)
+    - `.eve`/`.cmp` (PD uncomp. / comp)
+* Advanced Forensics Format
+    - `.AFF`
+    - `.AFD` (segmented)
+    - `.AFM` (metadata)
+
+disk-to-image file
+
+disk-to-disk
+
+logical acquisition / disk-to-data file
+
+sparse acquisition
+
+lossless compression is accepted
+
+host protected area
+
+BitLocker whole disk encryption
+
+Drive jumpers
+
+write-blocker
+
+Software acquisition
+- ProDiscover Basic
+- AccessData Forensics ToolKit Imager Lite
+
+LiveCD Boot
+- Mini-WinFE
+
+source drive - target drive
+
+Remote acquisition
+- ProDiscover Incident Response --- PD Server
+    + "Pushing out"
+    + Stealth mode
+    + communicates over Secure Connection Protocol
+- EnCase Enterprise
+    + Hardware & software RAID support
+- R-Tools R-Studio
+    + communicates over Triple Data Encryption Standard (3DES) encryption
+
+Validating Acquisitions
+- Hashing
+- Commercial forensics software bespoke validation
+- Raw acquired disk images have no metadata --- manual validation
+
