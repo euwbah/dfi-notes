@@ -36,17 +36,19 @@ Lab manager
 Staff
 
 Budget planning
-
 Uniform Crime Report
 
 Certs:
 - International Association of Computer Investigative Specialists (IACIS) test
+    + become a Certified Forensic Computer Examiner
 - Certified Cyber Forensics Professional
 - High-Tech Crime Network
 	+ Certified Computer Crime Investigator
 	+ Certified Computer Forensic Technician
 - EnCase Certified Examiner Certification
 - AccessData Certified Examiner Certification
+
+Minimum Requirements
 
 Visitor Badge
 
