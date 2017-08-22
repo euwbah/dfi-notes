@@ -186,3 +186,172 @@ Validating Acquisitions
 - Commercial forensics software bespoke validation
 - Raw acquired disk images have no metadata --- manual validation
 
+## 5. Digital Evidence Control
+
+Scientific Working Group on Digital Evidence (SWDGE)
+
+Business records
+
+Computer-generated vs Computer-stored
+
+Best evidence rule
+
+1. Admissible
+2. Authentic
+3. Complete
+4. Reliable
+5. Believable
+
+#### Private-sector:
+
+- disclaimer
+- inventory database
+- policy statement
+
+Discovery of incriminating evidence:
+- criminal law
+- inform management
+- adhere to 4th amendment
+- corporate attorney
+
+#### Public sector:
+
+probable cause
+
+innocent information
+limiting phrase
+plain view doctrine
+
+#### General guidelines when collecting evidence
+
+Not able to take offsite? Initial/extensive response field kit
+Multiple journals
+"Get lost"
+video
+move mouse etc
+don't cut power
+save data of running applications
+record all active windows
+shut down
+
+**Bag & tag**
+
+Related information
+
+How to document & handle evidence in the lab?
+
+Types of hashes:
+    - Cyclic Redundancy Check
+    - Message Digest 5
+    - Secure Hash Algorithm
+
+## 6a. OS & File Systems
+
+Complementary Metal Oxide Semiconductor
+
+Basic Input/Output System
+
+Extensible Firmware Interface
+
+CMOS/BIOS/UEFI settings boot from forensic disk
+
+Clusters
+
+Logical (cluster) / Physical (sector) addresses
+
+Partitions
+
+Partition table `0x1BE`, `0x1CE`, `0x1DE`...
+
+FAT = lots of drive slack (RAM slack + file slack)
+First letter of file name `0xE5` &sigma;
+
+Partition boot sector
+
+Master File Table
+
+Master File Table header attribute fields:
+`0x00`
+`0x14`
+`0x1C`-`0x1F`
+`0x32`-`0x33`
+
+Alternate Data Streams `asdf.txt:hidden_prog.exe`
+
+Encrypting File System
+
+Whole Disk Encryption
+Personal identity information
+pre-boot authentication
+BitLocker
+
+Windows Registry
+
+Startup tasks
+
+When was the computer last used
+
+Boot Configuration Data store (`bcdedit`)
+
+startup files:
+
+Windows Vista or later:
+`bootmgr.exe`
+`winload.exe`
+`winresume.exe`
+
+XP:
+`NTLDR`
+`boot.ini`
+`ntoskrnl.exe`
+`bootSect.dos`
+`NTDetect.com`
+`Pagefile.sys`
+
+## 7. Digital Forensics Analysis
+
+scope creep
+
+1. Recently wiped media
+2. Note condition & hardware
+3. Remove drive, check CMOS datetime
+4. Record acquisition process
+5. Process drive methodically and logically
+6. List all folders/files
+7. Examine everything
+8. Recover password-protected content
+9. Identify fishy executables
+10. Maintain control of all evidence and findings
+
+OSForensics search terms
+
+#### Data obscuring techniques
+
+Changing file extensions
+    * file signature
+
+Hidden file
+
+`diskpart assign|remove <drive letter>`
+
+Norton DiskEdit fake bad cluster
+
+Bit-shifting
+
+Steganography
+    * JPHide/Seek
+    * SNOW.EXE
+
+Encryption
+
+Password-cracking:
+    * Last Bit
+    * AccessData Password Recovery Tool Kit
+    * ophcrack
+    * John The Ripper
+    * Passware
++ Brute-force
++ Dictionary
++ Rainbow table
+
+Salting
