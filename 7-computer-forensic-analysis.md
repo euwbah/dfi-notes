@@ -43,6 +43,8 @@ Using the OS:
 - Marking Bad Clusters
     + Using Norton DiskEdit to flag clusters in FAT file systems as bad so the OS considers them unusable
     + Need to remedy by changing the flag back to "good cluster" using a disk editor
+
+Using third party tools:
 - Bit shifting
 - Steganography
     + Many freeware / shareware tools exist to conceal/scramble file information

@@ -30,11 +30,11 @@ For digital evidence, this means that copies can be admitted in court as long as
 
 ## 5 Rules of evidence
 
-1. Admissible
+1. Admissible by court
 2. Authentic
-3. Complete
-4. Reliable
-5. Believable
+3. Complete and unbiased
+4. Reliable 
+5. Believable by jury
 
 ### Private-sector incident guidelines
 
@@ -131,4 +131,12 @@ A forensic **hashing algorithm** has 3 attributes:
 **Cyclic Redundancy Check**
 - Mathematical algorithm
 - Not forensic algorithm
+
+**Message Digest 5**
+- Is forensic
+
+**Secure Hash Algorithm**
+- Is forensic
+- Developed by National Institute of Standards and Technology
+
 
