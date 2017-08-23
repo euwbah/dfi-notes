@@ -1,7 +1,7 @@
 # 10b. Rooting, Jailbreaking
 
 Escape restrictions:
-- Cannot sideload[^1] \(iOS only)
+- Cannot sideload<sup><a href="#sideloading">1</a></sup> (iOS only)
 - Cannot act as root user
 - Code signing
 - System config, overclocking, etc..
