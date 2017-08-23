@@ -10,7 +10,7 @@ Escape restrictions:
 
 *"Rooting"* (Android):
 - Can act as `root` user (i.e. can `su`)
-- No need to root to sideload[^1]
+- No need to root to sideload<sup><a href="#sideloading">1</a></sup>
 
 *"Jailbreaking"* (iOS/Windows Surface RT):
 - Requires exploiting software/hardware to modify OS settings
@@ -66,5 +66,5 @@ Android:
 - Flashing custom ROM (and also recovery ROM in event of explosion)
 - Motochopper
 
-[^1]: Sideloading = loading apps not on official app store
+<a name="sideloading"><sup>1</sup></a>: Sideloading = loading apps not on official app store
 
