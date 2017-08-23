@@ -27,6 +27,34 @@
 > redistribute such that the interior fields due to
 > them cancel.”
 
-    + Use small Faraday cages to store devices while in transit
-        * Homemade (empty paint/arson can)
-    
+Use small Faraday cages to store devices while in transit/in the lab
+    + Homemade (empty paint/arson can)
+    + Paraben's Wireless StrongHold Bag Reusable/Single Use
+    + Paraben's Tabletop StrongHold
+
+### Rule 3: **Gather Cables & Accessories**
+
+- Don't just take the device
+    + Also collect
+        * SIM Cards
+        * Media Cards
+        * Belt Clips
+        * Chargers
+        * Cradles
+        * Computers the mobile device was connected to (iTunes backup!)
+        * Encryption Keys
+        * Additional storage (microSD/SD)
+        * Wearables
+    + Some obscure devices may be out-of-service and phone accessories/charger peripherals may be out of production or just hard to find
+
+### Rule 4: **Work in a Controlled Environment**
+
+Best case scenario: The device stays in a Faraday environment from beginning to end
+
+Can either use a "Desktop" Faraday lab, or an actual Faraday Room, or even a TEMPEST facility
+
+
+### Legal considerations
+
+- Normally okay to search and retrieve data on seized devices (check with local District Attorney)
+- If in doubt, warrant it out!

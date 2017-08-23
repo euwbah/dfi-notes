@@ -355,3 +355,156 @@ Password-cracking:
 + Rainbow table
 
 Salting
+
+## 10.b Rooting/Jailbreaking/Unlocking
+
+KNOW THE DIFFERENCE
+
+root = Android root access (sideloading doesn't need root on Android)
+jailbreak = iOS root access + sideloading
+unlocking = use other telco's on the iPhone (iPhones can be tied to a telco contract and will lock to that telco only)
+
+sideloading = installing/loading apps from unofficial sources (e.g. pirated)
+
+unlocking is illegal in the US
+
+Risks:
+- malicious 3rd party tools
+- Warranty
+- Bricking
+- EULA
+
+Tools:
+- JailbreakMe
+- Redsn0w
+- Evasi0n
+
+- adb
+- z4root
+- SuperOneClick
+- Custom ROMs
+- Motochopper
+
+## 11. iOS Mobile Forensics & Data Types
+
+Darwin (UNIX)
+
+Partitions:
+1. MBR
+2. Apple_Free
+3. Main OS Partition (HFSX)
+4. Apple_Free
+5. Data Partition
+
+OS Layers:
+1. Core OS
+2. Core Services
+3. Media Layer
+4. Cocoa Touch
+
+Main "root" directory:
+`iPhone Device/File System/private/var/root/`
+
+Directory structure:
+`Applications/`
+`Library/`
+Other standard folders like on windows, just that instead of "Videos" it is called "Movies", also with the addition of "Public" and "Sites"
+
+> iPhone/iPad/iTouch **Advanced vs. Jailbroken** (Logical) plug-in
+
+Evidence sources:
+- EXIF Image metadata
+- `.plist` property list files (XML formatted data)
+    + `maps/history.plist`
+    + `maps/route.plist`
+    + `network.identification.plist`
+    + `cookies/cookies.plist`
+    + `safari/bookmarks.plist`
+- `mail/envelope Index`
+- `Keyboard/dynamic-text.dat`
+- `notes.db`
+- `voicemail/voicemail.db`
+- `iPhone Device/File System/private/etc/passwd`
+    + passwords encrypted using DES, can be cracked
+- iTunes backup files on computer `.MDBACKUP` files
+- Can check if an iOS device was connected to a computer by looking inside `Apple Computer/iTunes/` directory of the respective application data folder
+
+iOS Security:
+- iOS similar to Mac OS X
+- Secure boot chain
+- Hardware device keys
+- Application Code Signing
+
+# 12. Android Forensics & Data Types
+
+Dalvik Virtual Machine
+
+`.dex` Dalvik executables
+
+Acquisition:
+- Allow apps from unknown sources
+- Enable USB debugging
+- `AndroidService.apk` => `/data/local/tmp` => `com.paraben.service`
+- auto uninstall & remove --- every back to normal
+
+> Android (**Logical/Physical**) plug-in
+
+Logical acquisition:
+- Data types:
+    + Browser history
+    + Calendar
+    + Call History
+    + Contacts
+    + File System
+    + Media Store
+    + MMS History
+    + Settings
+    + SMS History
+- Logical folders/files acquired:
+    + `dalvik-cache/`
+    + `anr/` (debug/thread info)
+    + `app/` (`.apk` files)
+    + `data/`
+    + `misc/`
+    + `system/packages.xml`
+    + `checkin,db`
+
+Physical acquisition:
+- Data types:
+    + Flash Storage
+    + Memory Card
+- Basically acquire everything on the selected storage media as-is
+
+Security:
+- Linux kernel <--> OS
+- App sandbox
+- Secure interprocess communication
+- Application signing
+- Permissions API
+
+## 13. Mobile Device Seizure & Forensic Rules
+
+THE RULES:
+1. Maintain Power
+    - PIN
+    - PUK
+2. Block All Signals
+    - Faraday Cage
+    - Paraben Wireless StrongHold Bag (Reusable/Single Use)
+    - Paraben Tabletop StrongHold
+3. Peripherals
+    - SIM Cards
+    - Belt Clips
+    - Chargers
+    - Cradles
+    - Computers
+    - Encryption Keys / Password books
+    - Additional Storage
+    - Wearables
+4. Controlled environment
+    - Best case scenario:
+        + Device is in a Faraday environment from start to finish
+
+Legal Considerations:
+> In in doubt, warrant it out!
+

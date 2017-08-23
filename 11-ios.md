@@ -136,7 +136,7 @@ Website history
 `iPhone Device/File System/private/var/root/library/cookies/cookies.plist`
 
 ##### Bookmarks property list
-> bookmark.plist
+> safari/bookmarks.plist
 
 `./safari/bookmarks.plist`
 
