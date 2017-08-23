@@ -19,10 +19,10 @@
 
 ### Faraday Cage
 
-    “A charge only resided on the exterior of a
-    charged conductor, and exterior charge had no
-    influence on anything enclosed within a
-    conductor. This is because the exterior charges
-    redistribute such that the interior fields due to
-    them cancel.”
+> “A charge only resided on the exterior of a
+> charged conductor, and exterior charge had no
+> influence on anything enclosed within a
+> conductor. This is because the exterior charges
+> redistribute such that the interior fields due to
+> them cancel.”
 
