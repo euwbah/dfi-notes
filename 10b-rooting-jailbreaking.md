@@ -1,7 +1,7 @@
 # 10b. Rooting, Jailbreaking
 
 Escape restrictions:
-- Cannot sideload<sup><a href="#sideloading">1</a></sup> (iOS only)
+- Cannot sideload<sup>[1](#sideloading)</sup> (iOS only)
 - Cannot act as root user
 - Code signing
 - System config, overclocking, etc..
@@ -10,7 +10,7 @@ Escape restrictions:
 
 *"Rooting"* (Android):
 - Can act as `root` user (i.e. can `su`)
-- No need to root to sideload<sup><a href="#sideloading">1</a></sup>
+- No need to root to sideload<sup>[1](#sideloading)</sup>
 
 *"Jailbreaking"* (iOS/Windows Surface RT):
 - Requires exploiting software/hardware to modify OS settings
