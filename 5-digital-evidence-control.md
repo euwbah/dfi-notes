@@ -59,8 +59,8 @@ Rules of **search and seizure**
 
 Only may search for and seize criminal evidence with **probable cause**
 
-**Innocent information** -- unrelated information
-**Limiting phrase** -- separates innocent info from evidence
+**Innocent information** -- unrelated information <br>
+**Limiting phrase** -- separates innocent info from evidence <br>
 **Plain view doctrine** -- doesn't really apply to digital evidence
 
 ### General guidelines
