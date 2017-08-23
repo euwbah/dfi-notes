@@ -39,16 +39,16 @@ iOS built on Darwin (Unix)
 - camera
 
 ### Directory Structure
-> **Applications**: User-specific applications
-> **Library**: Hidden application data files
-> **Desktop**
-> **Documents**
-> **Downloads**
-> **Movies**
-> **Music**
-> **Pictures**
-> **Public**
-> **Sites**
+- **Applications**: User-specific applications
+- **Library**: Hidden application data files
+- **Desktop**
+- **Documents**
+- **Downloads**
+- **Movies**
+- **Music**
+- **Pictures**
+- **Public**
+- **Sites**
 
 ### Forensics
 
