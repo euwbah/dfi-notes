@@ -28,16 +28,15 @@
 > them cancel.”
 
 Use small Faraday cages to store devices while in transit/in the lab
-    + Homemade (empty paint/arson can)
-    + Paraben's Wireless StrongHold Bag Reusable/Single Use
-    + Paraben's Tabletop StrongHold
+    - Homemade (empty paint/arson can)
+    - Paraben's Wireless StrongHold Bag Reusable/Single Use
+    - Paraben's Tabletop StrongHold
 
 ### Rule 3: **Gather Cables & Accessories**
 
 - Don't just take the device
     + Also collect
         * SIM Cards
-        * Media Cards
         * Belt Clips
         * Chargers
         * Cradles
