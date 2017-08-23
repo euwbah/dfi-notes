@@ -20,12 +20,12 @@
     + It's possible to call for wiping of data/bricking/self-destruct remotely
 
 - **FARADAY CAGE**
-        > “A charge only resided on the exterior of a
-        > charged conductor, and exterior charge had no
-        > influence on anything enclosed within a
-        > conductor. This is because the exterior charges
-        > redistribute such that the interior fields due to
-        > them cancel.”
+> > > “A charge only resided on the exterior of a
+> > > charged conductor, and exterior charge had no
+> > > influence on anything enclosed within a
+> > > conductor. This is because the exterior charges
+> > > redistribute such that the interior fields due to
+> > > them cancel.”
 
     + Use small Faraday cages to store devices while in transit/in the lab
         + Homemade (empty paint/arson can)
