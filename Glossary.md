@@ -467,7 +467,7 @@ Logical acquisition:
     + `data/`
     + `misc/`
     + `system/packages.xml`
-    + `checkin,db`
+    + `checkin.db`
 
 Physical acquisition:
 - Data types:
