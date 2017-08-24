@@ -224,14 +224,14 @@ plain view doctrine
 
 #### General guidelines when collecting evidence
 
-Not able to take offsite? Initial/extensive response field kit
-Multiple journals
-"Get lost"
-video
-move mouse etc
-don't cut power
-save data of running applications
-record all active windows
+Not able to take offsite? Initial/extensive response field kit <br>
+Multiple journals <br> 
+"Get lost" <br>
+video <br> 
+move mouse etc <br>
+don't cut power <br>
+save data of running applications <br>
+record all active windows <br>
 shut down
 
 **Bag & tag**
