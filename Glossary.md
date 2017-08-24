@@ -1,5 +1,112 @@
 # This glossary only includes terms worth studying
 
+### Terms
+
+- Fourth amendment
+- Case law
+- Blotter
+- Digital Evidence First Responder
+- Digital Evidence Specialist
+- Affidavit
+- Exhibits
+- BYOD
+- Chain of custody
+- Lab manager
+- Staff
+- Budget planning
+- Uniform Crime Report
+- IACIS
+- Certified Forn Com Examiner
+- Certified Cyber Foren Professional
+- High-Tech Crime Network
+- Certified Computer Crime Investigator
+- Certified Computer Forensics Technician
+- EnCase/AccessData Certified Examiner
+- Visitor Badge
+- Floor-to-ceiling true walls
+- TEMPEST
+- Secure evidence container
+- Audits
+- Parallel/Serial Advanced Technology Attachment
+- Acquisition
+- Validation
+    + Test Plan
+    + National Institute of Standards and Technology
+    + Scientific Working Group on Digital Evidence
+    + International Association of Computer Investigative Specialists
+- Verification
+- Extraction
+- Reconstruction
+- Reporting
+- SMART
+- Helix3
+- Kali Linux
+- Sleuth Kit
+- Stationary
+- Lightweight
+- Portable
+- F.R.E.D. unit
+- Write Blocker
+- ISO 17025
+- ISO 5725
+- National Software Reference Library
+- Reference Data Set
+- Computer Forensics Examination Protocol
+- Digital Forensics Tool Upgrade Protocol
+- .bin
+- .raw
+- .dd
+- .001
+- .img
+- .E01
+- .Ex01
+- .eve/.cmp
+- .AFF/.AFD/.AFM
+- disk-to-image
+- disk-to-disk
+- logical
+- sparse
+- MiniWin-FE
+- ProDiscover Incident response
+- EnCase Enterprise
+- R-Tools R-Studio
+- Best Evidence Rule
+- Admissible
+- Authentic
+- Complete
+- Reliable
+- Believable
+- Probable cause
+- innocent information
+- limiting phrase
+- plain view doctrine doesn't apply
+- Initial/extensive response field kit
+- Multiple journals
+- gtfo
+- video
+- move mouse check screen
+- don't cut power
+- save data
+- record windows
+- shut down
+- bag & tag
+- complementary metal oxide semiconductor
+- Basic Input.Output System
+- Extensible Firmware Interface
+- Logical/Physical addresses
+- Partition Boot Sector
+- FAT `0xE5` &Sigma;
+- Master File Table
+- `0x00` `0x14` `0x1C-0x1F` `0x32-0x33`
+- Alternate data streams
+- EFS
+- Whole disk encryption
+- Personal Identity Information
+- bootmgr.exe winload.exe winresume.exe
+- ntldr boot.ini
+- 
+
+
 ## Forensics software file extensions
 **`.E01`** -- EnCase / AccessData Forensics Tool Kit (FTK) images
 **`.eve`** -- ProDiscover images
