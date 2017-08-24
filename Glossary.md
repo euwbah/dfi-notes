@@ -1,4 +1,5 @@
-# This glossary only includes terms worth studying
+# <marquee>SO DONE WITH THIS</marquee>
+
 
 ### Terms
 
