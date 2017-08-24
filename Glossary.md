@@ -264,7 +264,7 @@ Partitions
 Partition table `0x1BE`, `0x1CE`, `0x1DE`...
 
 FAT = lots of drive slack (RAM slack + file slack)
-First letter of file name `0xE5` &sigma;
+First letter of file name `0xE5` &Sigma;
 
 Partition boot sector
 
