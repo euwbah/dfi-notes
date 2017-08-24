@@ -81,9 +81,9 @@ Assigned cluster numbers are called **Logical Cluster Numbers**, Logical Cluster
 
 Important MFT header attribute fields (header is an attribute of an MFT entry):
 
-`0x00`: The word `FILE` hex -- record delimiter
-`0x14`: Length of the header attribute
-`0x1C`-`0x1F`: MFT record size
+`0x00`: The word `FILE` hex -- record delimiter <br>
+`0x14`: Length of the header attribute <br>
+`0x1C`-`0x1F`: MFT record size <br>
 `0x32`-`0x33`: Update sequence array: last 2 bytes of the first sector of the MFT record
 
 #### Alternate data streams
